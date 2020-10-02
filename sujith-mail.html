@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>email</title>
+    <style type="text/css">
+body {
+	margin: 0!important;
+	padding: 0px;
+	background-color: #FFF;
+}
+.wrapper {
+	width: 100%;
+	table-layout: fixed;
+}
+.wrapper-inner {
+	width: 100%;
+	background-color: #792e42;
+	max-width: 670px;
+	margin: 0 auto;
+    border-top: 3px solid #81B9C3;
+}
+table {
+	border-spacing: 0;
+	font-family: sans-serif;
+	color: #727f80;
+}
+.outer-table {
+	width: 100%;
+	max-width: 670px;
+	margin: 0 auto;
+	background-color: #FFF;
+}
+td {
+    padding: 0;
+}
+.header {
+    background-color: #C2C1C1;
+    border-bottom: 3px solid #81B9C3;
+}
+p {
+    margin:0;
+}
+.header p {
+    text-align: center;
+    padding: 1%;
+    font-weight: 500;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+a {
+    color: #F1F1F1;
+    text-decoration: none;
+}
+/*--- End Outer Table 1 --*/
+.main-table-first {
+	width: 100%;
+	max-width: 610px;
+	margin: 0 auto;
+	background-color: #FFF;
+	border-radius: 6px;
+	margin-top: 25px;
+}
+/*--- Start Two Column Sections --*/
+.two-column {
+    /*text-align: center;*/
+    font-size: 0;
+    padding: 5px 0 10px 10px;
+}
+.two-column .section {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.two-column .content {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+    font-style: italic;
+}
+.content {
+    width: 100%;
+    padding-top: 20px;
+}
+.center {
+    display: table;
+    margin: 0 auto;
+}
+img {
+    border: 0;
+}
+img.logo {
+    float: left;
+    margin-left: 5%;
+    max-width: 200px!important;
+}
+#callout {
+    float: right;
+    margin: 4% 5% 2% 0;
+    height: auto;
+    overflow: hidden;
+}
+#callout img {
+    max-width: 20px;
+}
+.social {
+    list-style-type: none;
+    margin-top: 1%;
+    padding: 0;
+}
+.social li {
+    display: inline-block;
+}
+.social li img {
+    max-width: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+/*--- Start Outer Table Banner Image, Text & Button --*/
+.image img {
+    width: 100%;
+    max-width: 670px;
+    height: auto;
+    margin: -72px 0;
+}
+.main-table {
+    width: 100%;
+    max-width: 610px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border-radius: 6px;
+}
+.one-column .inner-td {
+    font-size: 18px;
+    line-height: 1.2;
+    font-style: italic;
+    font-family: serif;
+    padding: 0 20px 10px;
+    text-align: justify;
+}
+.inner-td {
+    padding: 10px;
+}
+.h2 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 45px;
+    margin: 12px;
+    color: #4A4A4A;
+}
+p.center {
+    text-align: center;
+    max-width: 580px;
+    line-height: 24px;
+}
+.button-holder-center {
+    text-align: center;
+    margin: 5% 2% 3% 0;
+}
+.button-holder {
+    float: right;
+    margin: 5% 0 3% 0;
+}
+.btn {
+    font-size: 15px;
+    font-weight: 600;
+    background: #792e42;
+    color: #FFF;
+    text-decoration: none;
+    padding: 9px 16px;
+    border-radius: 28px;
+}
+/*--- Start Two Column Image & Text Sections --*/
+.two-column img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+}
+.two-column .text {
+    padding: 10px 0;
+}
+/*--- Start 3 Column Image & Text Section --*/
+.outer-table-2 {
+	width: 100%;
+	max-width: 670px;
+	margin: 22px auto;
+	background-color: #C2C1C1;
+    border-bottom: 3px solid #81B9C3;
+    border-top: 3px solid #81B9C3;
+}
+.three-column {
+    text-align: center;
+    font-size: 0;
+    padding: 10px 0 30px 0;
+}
+.three-column .section {
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+.three-column .content {
+    font-size: 16px;
+    line-height: 20px;
+}
+.three-column img {
+    width: 100%;
+    max-width: 125px;
+    height: auto;
+}
+.outer-table-2 p {
+	margin-top: 6px;
+	color: #FFF;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 23px;
+}
+/*--- Start Two Column Article Section --*/
+.outer-table-3 {
+    width: 100%;
+    max-width: 670px;
+    margin: 22px 0 auto;
+    background-color: #C2C1C1;
+    border-top: 3px solid #81B9C3;
+}
+.h3 {
+	text-align: center;
+	font-size: 21px;
+	font-weight: 600;
+	margin-bottom: 8px;
+	color: #4A4A4A;
+}
+/*--- Start Bottom One Column Section --*/
+.inner-bottom {
+	padding: 22px;
+}
+.h1 {
+    text-align: center!important;
+    font-size: 25px!important;
+    font-weight: 600;
+    line-height: 45px;
+    margin: 12px 0 20px 0;
+    color: #4A4A4A;
+}
+.inner-bottom p {
+	font-size: 16px;
+	line-height: 24px;
+	text-align: justify;
+}
+/*--- Start Footer Section --*/
+.footer {
+	width: 100%;
+	background-color: #792e42;
+	margin: 0 auto;
+    color: #FFF;
+}
+.footer  img {
+	max-width: 135px;
+	margin: 0 auto;
+	display: block;
+	padding: 4% 0 1% 0;
+}
+p.footer {
+	text-align: center;
+	color: #FFF!important;
+	line-height: 30px;
+	padding-bottom: 4%;
+    text-transform: uppercase;
+    padding-top: 4%;
+
+}
+/*--- Media Queries --*/
+@media screen and (max-width: 400px) {
+	.h1 {
+		font-size: 22px;
+	}
+	.two-column .column, .three-column .column {
+		max-width: 100%!important;
+	}
+	.two-column img {
+		width: 100%!important;
+	}
+	.three-column img {
+		max-width: 60%!important;
+	}
+}
+@media screen and (min-width: 401px) and (max-width: 586px) {
+
+	.two-column .column {
+		max-width: 50%!important;
+	}
+	.three-column .column {
+		max-width: 33%!important;
+}
+}
+@media screen and (max-width:768px) {
+img.logo {
+	float:none !important;
+	margin-left:0% !important;
+	max-width: 200px!important;
+}
+
+#callout {
+	float:none !important;
+	margin: 0% 0% 0% 0;
+	height: auto;
+	text-align:center;
+	overflow: hidden;
+}
+#callout img {
+    max-width:26px !important; 
+}
+.two-column .section {
+	width: 100% !important;
+	max-width: 100% !important;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.two-column img {
+	width: 100% !important;
+ 	height: auto !important;
+}
+img.img-responsive {
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+}
+.content {
+	width: 100%;
+	padding-top:0px !important;
+}
+}
+
+.inner-td-header1{
+margin-top: 65px;
+}
+input[type=text]{
+    border: none;
+    border-bottom: 1px solid #3636363a;
+    width: 85%;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.32);
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+</style>
+ </head>
+ 
+<body>
+    <div class="container">
+    <div class="wrapper">
+    	<div class="wrapper-inner">
+    		<!-- <table class="outer-table">
+    			<tr>
+    				<td class="header">
+    					<p><a href="index.html#">Click to view this email in your browser</a></p>
+    				</td>
+    			</tr>  --><!--- End Header -->
+           <!--  </table> --> <!--- End Outer Table -->
+            <table class="main-table-first">
+                <tr>
+                    <td class="two-column">
+                        <div class="section">
+                            <table width="100%">
+                                <tr>
+                                    <td class="inner-td">
+                                        <table class="content">
+                                            <tr>
+                                                <td align="left">
+                                                    <h3>Dear <span style="color: #19bcdb">Client</span>,</h3>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div> <!--- End First Column of Two Columns -->
+                    </td>
+                </tr> <!--- End Two Column Section -->
+                </table> <!--- End Main Table -->
+            <table class="main-table">
+    			<tr>
+    				<td class="one-column">
+    					<table width="100%">
+    						<tr>
+    							<td class="inner-td">
+                                    <h3 style="text-indent: 50px">I appreciate your quick provision of the design brief. It’s really allowed me to get a good idea of where you want this project to go. I’m excited to start working on the project!</h3>
+                                    <h3>I have just a few questions to clear up before we go full steam ahead.</h3>
+                                
+                                    <ul style="font-size: 22px">
+                                        <li style="color: red"><span style="color: black">A clear description of who you are ?</span>
+                                            <br>
+                                            <span style="color: grey;font-style: normal;font-size: 18px">-Firm Name,Established date,About your firm,..</span>
+                                        </li>
+                                        <br>
+                                        <li style="color: red"><span style="color: black">A simple, sensible web address ?</span>
+                                            <br>
+                                            <span style="color: grey;font-style: normal;font-size: 18px">-Lorem Ipsum is simply dummy text of the printing.</span>
+                                        </li>
+                                        <br>
+                                        <li style="color: red"><span style="color: black">An easily-navigated site map ?</span>
+                                            <br>
+                                            <span style="color: grey;font-style: normal;font-size: 18px">-Lorem Ipsum is simply dummy text of the printing.</span>
+                                        </li>
+                                        <br>
+                                        <li style="color: red"><span style="color: black">Easily to find contact information?</span>
+                                            <br>
+                                            <span style="color: grey;font-style: normal;font-size: 18px">-Door no/Building no,area Route,Landmarks,District,State,Pincode,..</span>
+                                        </li>
+                                        <br>
+                                        <li style="color: red"><span style="color: black">Customer testimonials ?</span>
+                                            <br>
+                                            <span style="color: grey;font-style: normal;font-size: 18px">-Lorem Ipsum is simply dummy text of the printing.</span>
+                                        </li>
+                                        <br>
+                                        <li style="color: red"><span style="color: black">Team details ?</span>
+                                            <br>
+                                            <span style="color: grey;font-style: normal;font-size: 18px">-President and CEO,Chief Operating Officer,..</span>
+                                        </li>
+                                        <br>
+                                        <li style="color: red"><span style="color: black">Insert your images ?</span>
+                                            <br>
+                                            <span style="color: grey;font-style: normal;font-size: 18px">-Logo-image,teams-images,gallery,..</span>
+                                        </li>
+                                        <br>
+                                        <li style="color: red"><span style="color: black">Product Details ?</span>
+                                            <br>
+                                            <span style="color: grey;font-style: normal;font-size: 18px">-Brief details about your Product and their description...</span>
+                                        </li>
+                                        <br>
+                                        <li style="color: red"><span style="color: black">Social media links ?</span>
+                                            <br>
+                                            <span style="color: grey;font-style: normal;font-size: 18px">-Like Facebook,Instagram,Youtube..</span>
+                                        </li>
+                                        <br>
+                                        <li style="color: red"><span style="color: black">An obvious call to action ?</span>
+                                            <br>
+                                            <span style="color: grey;font-style: normal;font-size: 18px">-Extra Actions...</span>
+                                        </li>
+                                    </ul>
+                                  
+                                    <h3>If you could get back to me with your input by [date and/or time], that’d be great. If you also have things you’d like to discuss, please reach out.</h3>
+                                
+                                     <h3>It’s always best that we’re on the same page.</h3>
+                                     <h3>Thanks...</h3>
+                                    <!-- <h3 class="inner-td-header1">A clear description of who you are ?</h3>
+                                    <input type="text" placeholder="text here...">
+                                    <h3 class="inner-td-header2">A simple, sensible web address ?</h3>
+                                    <input type="text" placeholder="text here...">
+                                    <h3 class="inner-td-header2">An easily-navigated site map ?</h3>
+                                    <input type="text" placeholder="text here...">
+                                    <h3 class="inner-td-header2">Easily to find contact information?</h3>
+                                    <input type="text" placeholder="text here...">
+                                    <h3 class="inner-td-header2">Customer testimonials ?</h3>
+                                    <input type="text" placeholder="text here...">
+                                    <h3 class="inner-td-header2">An obvious call to action ?</h3>
+                                    <input type="text" placeholder="text here...">
+                                    <h3 class="inner-td-header7">Insert your images ?</h3>
+                                    <input type="file" class="file-btn"> -->
+    							</td>
+    						</tr>
+    					</table>
+    				</td>
+    			</tr> <!--- End Heading, Paragraph & Button Section -->
+            </table> <!--- End Main Table -->
+            <br>
+          
+            <table class="outer-table-3">
+    			<tr>
+    				<td class="one-column">
+    					<table width="100%">
+    						<tr>
+    							<td class="footer">
+    								<!-- <img src="images/email-rhombus-logo.png"> -->
+    								<p class="footer">Rhombus It Solutions, lal-salam road,vyttila<br>&copy; rhombusitsolutions.com, 2019.<br><a href="index.html#">Unsubscribe</a></p>
+    							</td>
+    						</tr>
+    					</table>
+    				</td>
+    			</tr>
+    		</table> <!--- End Main Table -->
+    	</div> <!--- End Wrapper Inner -->
+    </div> <!--- End Wrapper -->
+</div>
+</body>
+</html>
